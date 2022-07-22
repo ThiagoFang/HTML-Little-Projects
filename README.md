@@ -11,10 +11,8 @@ Esse Repositório foi criado com o intuito de armazenarm pequenas experiências 
 </div>
 <div>
 
-## 🔧 **Techs**
+## 📜 **Sumário**
 
-* HTML
-* CSS 
-* JavaScript
+* <a href="https://github.com/ThiagoFang/HTML-Little-Projects/tree/main/draws">Desenhos com CSS</a>
 
 </div>
