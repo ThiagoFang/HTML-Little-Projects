@@ -23,12 +23,5 @@ colors.map((item) => {
     button.classList.add('color-button-model');
     button.style.backgroundColor = item.main;
     button.addEventListener('click', () => changeCharacterColor(item.main, item.darker));
-
     buttonsArea.appendChild(button);
-
 });
-
-/*
-colorButton.addEventListener('click', () => {
-    document.documentElement.style.setProperty(mainColor, 'green');
-});*/
