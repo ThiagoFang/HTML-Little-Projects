@@ -1,3 +1,8 @@
+:root{
+    --main-color: #ed53ba;
+    --main-color-darker: #ad2cad;
+    --background-color: #333;
+}
 
 * {
     padding: 0;
@@ -11,18 +16,57 @@ body {
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    background-color: #d6d6d6;
-
-    --main-color: #ed53ba;
-    --main-color-darker: #ad2cad;
+    background-color: var(--background-color);
 }
 
+
+/* ====== MODELS ======*/
+.models{
+    display: none;
+}
+
+.color-button-model{
+    border: none;
+    background-color: #ed53ba;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: transform 0.5s;
+}
+
+.color-button-model:hover {
+    transform: scale(1.05);
+}
+
+
+/* ===== PAGE CSS ===== */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: var(--background-color);
+}
+
+.color-buttons--area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    border-right: 2px solid #555;
+    padding: 30px;
+}
+
+/* ===== CHARACTER ===== */
 .player {
     position: relative;
     width: 160px;
     height: 200px;
-
-    background-color: #d6d6d6;
 }
 
 .player .body {
@@ -36,6 +80,7 @@ body {
     background-color: var(--main-color-darker);
     z-index: 1;
     overflow: hidden;
+    transition: background-color 1s;
 }
 
 .player .body .body-shadow {
@@ -44,6 +89,7 @@ body {
     width: 80px;
     height: 190px;
     background-color: var(--main-color);
+    transition: background-color 1s;
 
     border-radius: 50% 50% 30px 40%;
 }
@@ -104,6 +150,7 @@ body {
     left: 18px;
     top: 55px;
     background-color: var(--main-color);
+    transition: background-color 1s;
     overflow: hidden;
 }
 
@@ -115,6 +162,7 @@ body {
     height: 90px;
     border-radius: 20px;
     background-color: var(--main-color-darker);
+    transition: background-color 1s;
 }
 
 .player .leg-left {
@@ -126,6 +174,7 @@ body {
     left: 95px;
     border-radius: 20% 20% 30% 30%;
     background-color: var(--main-color-darker);
+    transition: background-color 1s;
 }
 
 .player .leg-right {
@@ -137,4 +186,5 @@ body {
     left: 48px;
     border-radius: 20% 20% 30% 30%;
     background-color: var(--main-color-darker);
+    transition: background-color 1s;
 }
