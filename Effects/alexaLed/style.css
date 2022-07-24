@@ -13,6 +13,10 @@
 :root {
     --card-height: 65vh;
     --card-width: calc(var(--card-height) / 1.5); 
+
+    --first-color: #5ddcff;
+    --second-color: #3c67e3;
+    --third-color: #4e00c2;
 }
 
 body {
@@ -57,13 +61,14 @@ body {
     border-radius: 8px;
     background-image: linear-gradient(
         var(--rotate),
-        #5ddcff, #3c67e3 43%, #4e00c2
+        var(--first-color), var(--second-color), var(--third-color)
     );
     position: absolute;
     z-index: -1;
     top: -1%;
     left: -2%;
-    animation: spin 2.s linear infinite;
+    transition: 1s;
+    animation: spin 2.5s linear infinite;
 }
 .card::after {
     position: absolute;
@@ -79,9 +84,10 @@ body {
     filter: blur(calc(var(--card-height) / 6));
     background-image: linear-gradient(
         var(--rotate),
-        #5ddcff, #3c67e3 43%, #4e00c2
+        var(--first-color), var(--second-color), var(--third-color)
     );
     opacity: 1;
+    transition: 1s;
     transition: opacity .5s;
     animation: spin 2.5s linear infinite;
 }
