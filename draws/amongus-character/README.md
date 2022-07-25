@@ -11,7 +11,7 @@ A parte em JavaScript fiz por minha conta, para poder dar uma interação a mais
 
 </div>
 
-<div align="center"><a> 
+<div align="center"><a href="https://www.youtube.com/watch?v=YtMlEr7Phd0"> 
 
 **LINK DO TUTORIAL** 
 

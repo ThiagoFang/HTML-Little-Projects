@@ -11,7 +11,7 @@ Achei esse tutorial para fazer um cartão mágico que na hora percebi que lembra
 </div>
 
 <div align="center"><a href="https://www.youtube.com/watch?v=6A6EE2lL3DM"> 
-
+g
 **LINK DO TUTORIAL** 
 
 </a></div>
