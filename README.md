@@ -13,6 +13,7 @@ Esse Repositório foi criado com o intuito de armazenarm pequenas experiências 
 
 ## 📜 **Sumário**
 
+* <a href="https://github.com/ThiagoFang/HTML-Little-Projects/tree/main/Effects">Efeitos</a>
 * <a href="https://github.com/ThiagoFang/HTML-Little-Projects/tree/main/draws">Desenhos com CSS</a>
 
 </div>
