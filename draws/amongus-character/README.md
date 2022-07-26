@@ -32,4 +32,4 @@ JavaScript<br/>
 
 ### Caso queira visualizar este projeto, faça download desses arquivos e abra o index.html com o seu navegador/live server
 
-### Em breve este projeto vai estar disponível no Code Pen
+## <a href="https://codepen.io/thiagofang/pen/xxWXwbZ">PROJETO NO CODE PEN</a>

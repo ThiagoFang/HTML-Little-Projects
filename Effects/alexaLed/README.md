@@ -11,7 +11,7 @@ Achei esse tutorial para fazer um cartão mágico que na hora percebi que lembra
 </div>
 
 <div align="center"><a href="https://www.youtube.com/watch?v=6A6EE2lL3DM"> 
-g
+
 **LINK DO TUTORIAL** 
 
 </a></div>
@@ -31,4 +31,4 @@ JavaScript<br/>
 
 ### Caso queira visualizar este projeto, faça download desses arquivos e abra o index.html com o seu navegador/live server
 
-### Em breve este projeto vai estar disponível no Code Pen
+## <a href="https://codepen.io/thiagofang/pen/MWVEaOY">PROJETO NO CODE PEN</a>
