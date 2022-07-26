@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;900&display=swap');
+
+:root{
+    --clr-text: #0468ff;
+    --clr-neon: #04d9ff;
+    --clr-bg: #00051d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--clr-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.neon-button {
+    position: relative;
+    font-size: 3rem;
+    border: .1em solid var(--clr-neon);
+    color: var(--clr-text);
+    padding: .25em 1em;
+    border-radius: .2em;
+    text-shadow: 0 0 0.2em rgba(255, 255, 255, 0.36),
+        0 0 1em var(--clr-neon);
+    box-shadow: inset 0 0 .4em 0 var(--clr-neon),
+        0 0 .6em 0 var(--clr-neon);
+}
+
+.neon-button::before {
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    background: linear-gradient(90deg, var(--clr-neon) 0%, var(--clr-text) 50%, var(--clr-neon) 100%);
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: perspective(1em) rotateX(45deg) scale(1.1, .3);
+    filter: blur(1em);
+    opacity: .7;
+}
+
+.neon-button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--clr-neon);
+    z-index: -1;
+    box-shadow: 0 0 2em .5em var(--clr-neon);
+    opacity: 0;
+}
+
+.neon-button:hover, .neon-button:focus {
+    background: var(--clr-neon);
+    color: var(--clr-bg);
+    text-shadow: none;
+    transition:  all .3s ease-in;
+}
+.neon-button:hover::after, .neon-button:focus::after {
+    opacity: 1;
+    transition:  all .3s ease-in;
+}
+.neon-button:hover::before, .neon-button:focus::before {
+    opacity: .8;
+    transition:  all .3s ease-in;
+}
