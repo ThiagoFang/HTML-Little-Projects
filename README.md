@@ -13,8 +13,11 @@ Esse Repositório foi criado com o intuito de armazenarm pequenas experiências 
 
 ## 📜 **Sumário**
 
-* <a href="https://github.com/ThiagoFang/HTML-Little-Projects/tree/main/Effects">Efeitos</a>
-* <a href="https://github.com/ThiagoFang/HTML-Little-Projects/tree/main/draws">Desenhos com CSS</a>
-* <a href="https://github.com/ThiagoFang/HTML-Little-Projects/tree/main/cards">Cards</a>
+* <a href="https://github.com/ThiagoFang/HTML-Little-Projects/tree/main/animations">Animações / Animations</a>
+* <a href="https://github.com/ThiagoFang/HTML-Little-Projects/tree/main/Effects">Efeitos / Effects</a>
+* <a href="https://github.com/ThiagoFang/HTML-Little-Projects/tree/main/Effects">Botõe / Buttons</a>
+* <a href="https://github.com/ThiagoFang/HTML-Little-Projects/tree/main/draws">Desenhos com CSS / CSS Draws</a>
+* <a href="https://github.com/ThiagoFang/HTML-Little-Projects/tree/main/cards">Cartões / Cards</a>
+* <a href="https://github.com/ThiagoFang/HTML-Little-Projects/tree/main/inputs">Formulários / Inputs</a>
 
 </div>
