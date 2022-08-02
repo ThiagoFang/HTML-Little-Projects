@@ -34,4 +34,4 @@ CSS<br/>
 
 ### Caso queira visualizar este projeto, faça download desses arquivos e abra o index.html com o seu navegador/live server
 
-## <a href="https://codepen.io/thiagofang/pen/WNzMePp">PROJETO NO CODE PEN</a>
+## <a href="https://codepen.io/thiagofang/pen/VwXQvWv">PROJETO NO CODE PEN</a>
