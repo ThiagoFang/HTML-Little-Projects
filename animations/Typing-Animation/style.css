@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body{
+    background: #222;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    color: #FFF;
+    display: flex;
+}
+
+.text-area {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 48px;
+    min-height: 48px;
+}
+
+.typing-bar {
+    margin-left: 5px;
+    border-left: 3px solid #0bd361;
+    animation: typingBar 1.5s infinite;
+    opacity: 0;
+}
+
+@keyframes typingBar{
+    0%, 60% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
