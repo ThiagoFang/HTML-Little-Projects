@@ -7,8 +7,12 @@ const typeText = (name) => {
     const timer = setInterval(() => {
         textArea.innerHTML += atualName[step];
         step++
-
+        console.log(step, name.length)
         if(step >= name.length) clearInterval(timer);
     }, 250);
 };
-typeText('Thiago Silva')
+
+setInterval(() => {
+    textArea.innerHTML = ''
+    typeText('Thiago Silva');
+}, 5000);
