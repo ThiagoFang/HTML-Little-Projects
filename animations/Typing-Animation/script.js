@@ -12,7 +12,4 @@ const typeText = (name) => {
     }, 250);
 };
 
-setInterval(() => {
-    textArea.innerHTML = ''
-    typeText('Thiago Silva');
-}, 5000);
+typeText('Thiago Silva');
