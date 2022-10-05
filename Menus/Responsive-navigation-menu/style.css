@@ -86,6 +86,7 @@ header .search {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 10px;
   color: var(--font-color);
   font-size: 1.5em;
   z-index: 10;
@@ -102,6 +103,10 @@ header .search {
   align-items: center;
   padding: 0 30px;
   transition: 0.5s ease-in-out;
+}
+
+.search__box.active{
+  right: 0;
 }
 
 .search__box input {
