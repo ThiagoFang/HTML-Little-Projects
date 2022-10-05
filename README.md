@@ -19,5 +19,6 @@ Esse Repositório foi criado com o intuito de armazenar pequenas experiências c
 * <a href="https://github.com/ThiagoFang/HTML-Little-Projects/tree/main/draws">Desenhos com CSS / CSS Draws</a>
 * <a href="https://github.com/ThiagoFang/HTML-Little-Projects/tree/main/cards">Cartões / Cards</a>
 * <a href="https://github.com/ThiagoFang/HTML-Little-Projects/tree/main/inputs">Formulários / Inputs</a>
+* <a href="https://github.com/ThiagoFang/HTML-Little-Projects/tree/main/Menus">Menus</a>
 
 </div>
