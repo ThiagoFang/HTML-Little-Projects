@@ -93,6 +93,28 @@ header .search {
   cursor: pointer;
 }
 
+.search__button {
+  position: relative;
+  left: 30px;
+  top: 2.5px;
+  transition: 0.5s ease-in-out;
+}
+.search__button.active {
+  left: 0;
+}
+
+.close__button{
+  opacity: 0;
+  visibility: hidden;
+  scale: 0;
+  transition: 0.5s; 
+}
+.close__button.active{
+  opacity: 1;
+  visibility: visible;
+  scale: 1;
+}
+
 .search__box {
   position: absolute;
   right: -100%;
@@ -121,3 +143,4 @@ header .search {
   border-bottom: 1px solid #666;
 }
 
+/* ========= Media Queries ======== */
