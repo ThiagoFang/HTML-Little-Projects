@@ -143,4 +143,53 @@ header .search {
   border-bottom: 1px solid #666;
 }
 
+.menu__toggle {
+  position: relative;
+  display: none;
+}
+
 /* ========= Media Queries ======== */
+
+@media (max-width: 800px) {
+
+  .search__button{
+    left: 0;
+    margin: 0;
+  }
+
+  .menu__toggle {
+    position: absolute;
+    display: block;
+    color: var(--font-color);
+    font-size: 2em;
+    cursor: pointer;
+    transform: translate(35px);
+    z-index: 10;
+  }
+
+  header .navigation {
+    position: absolute;
+    display: block;
+    visibility: hidden;
+    left: 100%;
+  }
+  header.open .navigation {
+    top: 80px;
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--header-color);
+    width: 100%;
+    height: calc(100vh - 80px);
+    padding: 40px;
+    border-top: 2px solid #333;
+  }
+  header.open .navigation li a {
+    font-size: 1.25em;
+  }
+  .hide {
+    display: none;
+  }
+}
