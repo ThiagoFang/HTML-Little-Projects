@@ -1,6 +1,11 @@
 #  **Spooky Ghost Animation**
 
+<div align="center">
+
 ![print do projeto](print.png)
+
+</div>
+
 
 <div align="center">
 
