@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.share__btn {
+  background: linear-gradient(30deg, #3498db, #5363d8);
+  color: #FFF;
+  font-family: helvetica, sans-serif;
+  border: 0;
+  padding: 16px 40px;
+  font-size: 20px;
+  font-weight: 600px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  border-radius: 40px;
+  transition: .3s ease-in-out;
+}
+
+.social__btns {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  bottom: 0;
+  transform: translateY(100%);
+}
+
+.social__btns a {
+  color: #FFF;
+  transition: .3s;
+}
+
+.share__btn:hover {
+  border-radius: 0;
+}
+
+.text, .icon {
+  display: inline-block;
+  transition: .3s ease-in-out;
+}
+
+.icon {
+  transition-delay: 60ms;
+}
+
+.social__btns a:nth-child(2) {
+  transition-delay: 60ms;
+}
+
+.social__btns a:nth-child(3) {
+  transition-delay: 120ms;
+}
+
+.share__btn:hover .text,
+.share__btn:hover .icon, 
+.share__btn:hover .social__btns a {
+  transform: translateY(-40px);
+}
+
+.social__btns a:hover {
+  opacity: .7;
+}
